@@ -2,7 +2,7 @@
 
 module Mutations
   module Users
-    class SignInUser < BaseMutation
+    class SignIn < BaseMutation
       null true
 
       argument :email, String, required: true

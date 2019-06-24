@@ -4,10 +4,7 @@ require 'rails_helper'
 
 module Mutations
   module Users
-    RSpec.describe SignInUser, type: :request do
-      before do
-        User.destroy_all
-      end
+    RSpec.describe SignIn, type: :request do
 
       let(:user) { User.create(email: 'hososlch@gmail.com', password: '12345678') }
 

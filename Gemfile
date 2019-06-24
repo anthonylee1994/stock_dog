@@ -16,13 +16,15 @@ gem 'puma', '~> 3.11'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'bson_ext'
+gem 'config'
+gem 'database_cleaner'
+gem 'graphql'
 gem 'mongoid', '~> 6.0'
 gem 'rest-client'
-gem 'rubocop'
-gem 'rubocop-rails'
-gem 'config'
-gem 'graphql'
 gem 'rspec-rails'
+gem 'rubocop'
+
+gem 'rubocop-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
@@ -32,10 +34,10 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'graphiql-rails'
   gem 'pry'
   gem 'pry-rails'
-  gem 'graphiql-rails'
-  gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
