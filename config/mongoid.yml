@@ -1,0 +1,20 @@
+development:
+  clients:
+    default:
+      hosts:
+        - mongo:27017
+      database: stock_dog_development
+
+test:
+  clients:
+    default:
+      hosts:
+        - mongo:27017
+      database: stock_dog_test
+
+production:
+  clients:
+    default:
+      hosts:
+        - mongo:27017
+      database: stock_dog_production

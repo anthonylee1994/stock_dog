@@ -1,0 +1,8 @@
+rails:
+  secret_key_base: bfa07858a45638b41bb7c9a414d412252904bde45095bbb552fa44bf96943441777776c45a610a0eee89a01e322c582a5801e2f220a638f974a25a768ab97d5d
+
+investtab:
+  grant_type: password
+  username: hososlch@gmail.com
+  password: 12345678
+  client_id: kj99BopenLgcScjyOzhj9iol
